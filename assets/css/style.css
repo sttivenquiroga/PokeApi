@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.divHeader{
+    width: 100%;
+}
+.divHeader .header{
+    background-color: rgb(252, 85, 85);
+    color:  black;
+    display: flex;
+}
+.header img{
+    width: 100px;
+    margin-left: 40px;
+}
+.header h1{
+    margin: auto;
+    font-family: 'Pangolin', cursive;
+    color: white;
+}
+.header ul{
+    margin-right: 0px;
+    display: flex;
+}
+.paginacion .page-item{
+    margin-top: 10px;
+    padding: 3px 0px 0px 0px;
+    width: 100px;
+    list-style: none;
+    display: flex;
+}
+.page-link{
+    background-color: rgb(252, 85, 85);
+    color: black;
+}
+.page-link a{
+    text-decoration: none;
+}
+body{
+    background-image: url(../img/bground.jpg);
+}
+.styleContainer{
+    position: relative;
+    margin-top: 130px;
+}
+.contCard{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.footer{
+    background-color: rgb(252, 85, 85);
+    color:  black;
+    font-size: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
